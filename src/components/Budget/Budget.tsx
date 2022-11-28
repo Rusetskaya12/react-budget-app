@@ -5,11 +5,11 @@ import { BudgetSelect } from "../BudgetSelect/BudgetSelect";
 
 export const Budget = () => {
   return (
-	<div>
-		<BudgetSelect />
-		<Title />
-		<RemainingCard />
-		<SpentCard />
-	</div>
+    <div>
+      <BudgetSelect />
+      <Title />
+      <RemainingCard />
+      <SpentCard />
+    </div>
   );
 };

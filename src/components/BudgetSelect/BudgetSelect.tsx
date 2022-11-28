@@ -12,10 +12,15 @@ export const CurrensySelect = () => {
 
   return (
     <Select
-      options={currencies}
-      value={currentCurrency}
-      onChange={handleSelect}
-      isSearchable={false}
-    />
+		  options={currencies}
+		  value={currentCurrency}
+		  onChange={handleSelect}
+		  isSearchable={false} inputValue={""} onInputChange={function (_newValue: string): void {
+			  throw new Error("Function not implemented.");
+		  } } onMenuOpen={function (): void {
+			  throw new Error("Function not implemented.");
+		  } } onMenuClose={function (): void {
+			  throw new Error("Function not implemented.");
+		  } }    />
   );
 };
